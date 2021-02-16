@@ -1,0 +1,23 @@
+inserting and removing {
+    v-if 
+    v-else-if
+    v-else
+}
+toggels visability {
+    v-show: boolean
+}
+loop over array {
+    v:for
+}
+
+v:on lyssnar efter ett event. I detta fallet klick{
+    v-on:click
+}
+
+@click 
+@mouseover 
+@submit 
+@keyup.enter (enter is an modifier)
+
+Cheat Sheet:
+https://www.vuemastery.com/pdf/Vue-Essentials-Cheat-Sheet.pdf
