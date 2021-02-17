@@ -5,9 +5,11 @@ Vue.component('product', {
             <img v-bind:src="image">
         </div>
 
+        
+
         <div class="product-info">
             <h1> {{ titel }}</h1>
-            <p>These {{ product }} are amazing {{ product }}</p>
+            <p>These {{ product }} are amazing {{ product }} cause the material {{ product }} is very comfy </p>
             
             <!-- if else  -->
             <p v-if="inStock">In stock</p>
@@ -29,7 +31,8 @@ Vue.component('product', {
             <!-- event listener  -->
             <button v-on:click="addToCart" 
                     :disabled="!inStock"
-                    :class="{disabledButton: !inStock }" >Add to Cart</button>
+                    :class="{disabledButton: !inStock }" >Add to Cart
+            </button>
         
             <div class="cart">
                 <p>Cart({{cart}})</p>
@@ -43,21 +46,27 @@ Vue.component('product', {
     data() {
         return {
             brand: 'Felicias',
-            product: 'Socks',
+            product: 'jeans',
             selectedVariant: 0,
             sizes: ['s', 'm', 'l', 'xl'],
             variants: [
                 {
                     variantId: 1,
-                    variantColor: 'Green',
-                    variantImage: 'https://www.vuemastery.com/images/challenges/vmSocks-green-onWhite.jpg',
+                    variantColor: 'Black',
+                    variantImage: 'https://media.nelly.com/i/nlyscandinavia/440599-0426_06?qlt=100&maxW=2560',
                     variantQuantity: 10,
                 },
                 {
                     variantId: 2, 
                     variantColor: 'Blue',
-                    variantImage: 'https://www.vuemastery.com/images/challenges/vmSocks-blue-onWhite.jpg',
+                    variantImage: 'https://media.nelly.com/i/nlyscandinavia/440599-2257_06?qlt=100&maxW=2560',
                     variantQuantity: 0,
+                },
+                {
+                    variantId: 3, 
+                    variantColor: 'Pink',
+                    variantImage: 'https://media.nelly.com/i/nlyscandinavia/440599-0029_01?qlt=100&maxW=2560',
+                    variantQuantity: 2,
                 }
             ],
             cart: 0,

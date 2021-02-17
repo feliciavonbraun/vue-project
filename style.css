@@ -5,9 +5,16 @@ body {
 }
   
 .nav-bar {
-    background: linear-gradient(-90deg, #84CF6A, #16C0B0);
+    background: rgba(16, 16, 158, 0.63);
+    /* background: linear-gradient(-90deg, #5628d4, #13eebe); */
     height: 60px;
     margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+  margin: 0;
 }
 
 .product {
