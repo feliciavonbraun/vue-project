@@ -8,17 +8,36 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
     <script defer src="main.js"></script>
+    <script defer src="header.js"></script>
+    <script defer src="footer.js"></script>
 </head>
 <body>
 
     <div class="nav-bar">
         <h1>felicias shop</h1>
     </div>
+
+    <div id="header">
+        <div>
+            <button 
+                :class="{'pinkBtn': !clicked, 'redBtn': clicked}"
+                @click ="clicked = !clicked">
+                jag ändrar färg
+            </button>
+        </div>
+    </div>
     
     <div id="app">
         <product></product>    
         <product></product>    
         <product></product>  
+    </div>
+
+    <div id="footer">
+        <div>
+            <input type="text" v-on:input="changeTitel">
+            <p>Hello {{ yo }}</p>
+        </div>        
     </div>
     
 </body>

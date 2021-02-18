@@ -69,6 +69,13 @@ button {
   font-size: 14px;
 } 
 
+.pinkBtn {
+  background: pink;
+}
+.redBtn {
+  background: red;
+}
+
 .disabledButton {
   background-color: #d8d8d8;
 }
