@@ -1,8 +1,10 @@
-# vue-tutorial
+# vue-project
 
 This is a project for school where we where supposed to try out a new framework. I chose Vue. 
 
 You can access this project by opening the code in VSC and open with liveserver. 
+
+[Link to demo](https://feliciavonbraun.github.io/vue-tutorial/)
 
 [Vue Cheat Sheet](https://www.vuemastery.com/pdf/Vue-Essentials-Cheat-Sheet.pdf)
 
