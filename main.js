@@ -5,22 +5,18 @@ Vue.component('product', {
             <img v-bind:src="image">
         </div>
 
-        
-
         <div class="product-info">
             <h1> {{ titel }}</h1>
-            <p>These {{ product }} are amazing {{ product }} cause the material {{ product }} is very comfy </p>
+            <p>These {{ product }} are amazing {{ product }} cause the material {{ product }} is very {{ product }}y </p>
             
-            <!-- if else  -->
             <p v-if="inStock">In stock</p>
             <p v-else :class="{ disbaledOutOfStock: !inStock }">Out of stock</p>
 
-            <!-- list from js -->
             <ul> 
                 <li v-for="size in sizes">{{ size }}</li>
             </ul>
 
-            <!-- hover over green and blue -->
+            <!-- hover over black and blue -->
             <div v-for="(variant, index) in variants" 
                 :key="variant.variantId"
                 class="color-box"
