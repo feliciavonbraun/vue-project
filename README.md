@@ -1,4 +1,4 @@
-# vue-tutorial
+# vue-project
 
 This is a project for school where we where supposed to try out a new framework. I chose Vue. 
 
