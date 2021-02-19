@@ -4,7 +4,7 @@ This is a project for school where we where supposed to try out a new framework.
 
 You can access this project by opening the code in VSC and open with liveserver. 
 
-[Link to demo](https://feliciavonbraun.github.io/vue-tutorial/)
+[Link to demo](https://feliciavonbraun.github.io/vue-project/)
 
 [Vue Cheat Sheet](https://www.vuemastery.com/pdf/Vue-Essentials-Cheat-Sheet.pdf)
 
