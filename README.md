@@ -3,13 +3,12 @@
 This is a project for school where we where supposed to try out a new framework. I chose Vue. 
 
 You can access this project by opening the code in VSC and open with liveserver. 
+
 To get started with your own Vue-project, add following tag in your head-tag or install with npm.
-.install -g @vue/cli
-.vue create nameOfFolder
-.npm run serve
-
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
-
+* <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+* install -g @vue/cli
+* vue create nameOfFolder
+* npm run serve
 
 [Link to demo](https://feliciavonbraun.github.io/vue-project/)
 
