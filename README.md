@@ -1,7 +1,6 @@
 # vue-project
 
 This is a project for school where we where supposed to try out a new framework. I chose Vue. 
-
 You can access this project by opening the code in VSC and open with liveserver. 
 
 To get started with your own Vue-project, add following tag in your head-tag or install with npm.
